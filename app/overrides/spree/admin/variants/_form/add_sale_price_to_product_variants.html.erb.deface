@@ -1,2 +1,4 @@
 <!-- insert_after '[data-hook="admin_variant_form_additional_fields"]' -->
-<%= render partial: 'spree/admin/shared/on_sale/form', locals: { f: f } %>
+<% if current_page?(edit_admin_product_variant_path(params[:product_id], params[:id] || 0)) %>
+  <%= render partial: 'spree/admin/shared/on_sale/form', locals: { f: f } %>
+<% end %>

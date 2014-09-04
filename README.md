@@ -22,7 +22,6 @@ After installing, you'll need to run the generator:
 
 ## TODO
 - Admin
-  - Do not display sale price fields when creating products
   - Form fields for product without variations
   - Form fields for product with variations
   - Validate that `amount` is not greater current price
