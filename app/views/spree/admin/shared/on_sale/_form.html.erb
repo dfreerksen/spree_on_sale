@@ -1,0 +1,27 @@
+<fieldset data-hook="admin_sale_price_form" class="twelve columns alpha omega">
+  <legend><%= Spree.t('on_sale.admin.fields.legend') %></legend>
+
+  <div data-hook="admin_sale_price_form_fields_left" class="label-block left six columns alpha">
+    <div class="field" data-hook="amount">
+      <label for="product_amount"><%= Spree.t('on_sale.admin.fields.labels.amount') %></label>
+      <input id="product_amount" type="text" class="fullwidth amount">
+    </div>
+
+    <div class="field" data-hook="currency">
+      <label for="product_currency"><%= Spree.t('on_sale.admin.fields.labels.currency') %></label>
+      <input id="product_currency" type="text" class="fullwidth currency">
+    </div>
+  </div>
+
+  <div data-hook="admin_sale_price_form_fields_right" class="label-block right six columns omega">
+    <div class="field" data-hook="start_at">
+      <label for="product_start_at"><%= Spree.t('on_sale.admin.fields.labels.start_at') %></label>
+      <input id="product_start_at" type="text" class="fullwidth start_at datepicker">
+    </div>
+
+    <div class="field" data-hook="end_at">
+      <label for="product_end_at"><%= Spree.t('on_sale.admin.fields.labels.end_at') %></label>
+      <input id="product_end_at" type="text" class="fullwidth end_at datepicker">
+    </div>
+  </div>
+</fieldset>

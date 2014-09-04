@@ -1,0 +1,4 @@
+<!-- insert_bottom '[data-hook="products_list_item"]' -->
+<div class="onsale">
+  <div class="ribbon"><%= Spree.t('on_sale.ribbon') %></div>
+</div>

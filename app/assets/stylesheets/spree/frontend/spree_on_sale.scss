@@ -1,0 +1,39 @@
+$ribbon-shadow: 0 1px 8px rgba(0,0,0,0.5);
+$ribbon-transform: rotate(45deg);
+
+// Product item
+ul.product-listing li {
+  position: relative;
+  overflow: hidden;
+}
+
+// Original product price
+.price-original {
+  text-decoration: line-through;
+}
+
+// Sale price for product
+.price-sale {
+  color: #bf2725;
+}
+
+// Sale ribbon
+.onsale {
+  .ribbon {
+    position: absolute;
+    top: 12px;
+    right: -27px;
+    width: 100px;
+    padding: 1px 0;
+    color: #eee;
+    background-color: #c00;
+    -webkit-box-shadow: $ribbon-shadow;
+       -moz-box-shadow: $ribbon-shadow;
+            box-shadow: $ribbon-shadow;
+    -webkit-transform: $ribbon-transform;
+       -moz-transform: $ribbon-transform;
+        -ms-transform: $ribbon-transform;
+         -o-transform: $ribbon-transform;
+            transform: $ribbon-transform;
+  }
+}

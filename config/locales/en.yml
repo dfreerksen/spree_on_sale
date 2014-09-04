@@ -1,0 +1,13 @@
+---
+en:
+  spree:
+    on_sale:
+      ribbon: On Sale
+      admin:
+        fields:
+          legend: Sale Pricing
+          labels:
+            amount: Sale Price
+            currency: Currency
+            start_at: Sale Begins
+            end_at: Sale Ends

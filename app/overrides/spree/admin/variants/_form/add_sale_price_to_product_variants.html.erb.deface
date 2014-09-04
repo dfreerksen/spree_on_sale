@@ -1,0 +1,2 @@
+<!-- insert_after '[data-hook="admin_variant_form_additional_fields"]' -->
+<%= render partial: 'spree/admin/shared/on_sale/form', locals: { f: f } %>
