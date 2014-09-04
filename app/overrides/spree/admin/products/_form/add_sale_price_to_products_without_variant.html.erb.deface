@@ -1,4 +1,4 @@
 <!-- insert_after '[data-hook="admin_product_form_right"]' -->
-<% if !@product.has_variants? %>
+<% unless @product.has_variants? %>
   <%= render partial: 'spree/admin/shared/on_sale/form', locals: { f: f } %>
 <% end %>
